@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+
+  font-family: "Roboto", sans-serif;
+}
+.wrapper {
+  border: solid rgb(7, 146, 170) 1px;
+  border-radius: 5px;
+  height: 95vh;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-image: url(Medicalhealthcare_124821562_original.jpeg);
+}
+h1 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+h3 {
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  background-color: rgba(248, 248, 255, 0.493);
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  line-height: 30px;
+  text-align: left;
+}
+.output {
+  margin-top: 30px;
+  border: 1px solid;
+  width: 100%;
+  height: 150px;
+  font-size: 40px;
+  text-align: center;
+  line-height: 150px;
+  background-color: ghostwhite;
+  border: solid rgb(7, 146, 170) 1px;
+}
+.message {
+  margin-top: 30px;
+  border: 1px solid;
+  width: 100%;
+  height: 150px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 30px;
+  padding-top: 30px;
+  font-weight: bold;
+  background-color: ghostwhite;
+}
+#height {
+  width: 40%;
+}
+#weight {
+  width: 40%;
+}
+
+#btn {
+  background-color: rgb(87, 230, 87);
+  font-weight: bold;
+}
